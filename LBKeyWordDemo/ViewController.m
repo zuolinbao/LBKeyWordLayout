@@ -23,7 +23,7 @@
     NSNumberFormatter *nf = [NSNumberFormatter new];
     nf.numberStyle = NSNumberFormatterSpellOutStyle;
     NSMutableArray *array = [NSMutableArray array];
-    const NSInteger count = 10;
+    const NSInteger count = 5;
     for (NSInteger i = 0; i < count; ++i) {
         [array addObject:[NSString stringWithFormat:@"%@", [nf stringFromNumber:@(i)]]];
     }
